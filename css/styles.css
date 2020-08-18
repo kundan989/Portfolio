@@ -18,7 +18,7 @@ body.active {
 .no-js #experience-timeline>div h3 {
     font-size: 1.5em;
     font-weight: 300;
-    color: #374054;
+    color: #000000;
     display: inline-block;
     margin: 0
 }
@@ -63,10 +63,11 @@ header {
 }
 
 header ul {
-    display: inline-block;
+    display: block;
     background: #fff;
     text-align: center;
     padding: 10px;
+    font-weight: bold;
     margin: 0;
     border-bottom-right-radius: 4px;
     border-bottom-left-radius: 4px
@@ -78,19 +79,19 @@ header li {
 
 header a {
     display: block;
-    color: #3498db;
+    color: #E8340F;
     padding: 10px
 }
 
 header a:hover {
-    color: #217dbb;
+    color: #E8340F;
     text-decoration: none;
     background: #eee;
     border-radius: 4px
 }
 
 header a:focus {
-    color: #3498db;
+    color: #E8340F;
     text-decoration: none
 }
 
@@ -113,7 +114,7 @@ header.sticky {
     position: fixed;
     right: 15px;
     top: 10px;
-    color: #3498db;
+    color: #E8340F;
     font-size: 1.5em;
     z-index: 20;
     padding: 0 7px;
@@ -130,7 +131,7 @@ header.sticky {
     padding-right: 15px;
     padding-top: 10px;
     cursor: pointer;
-    color: #3498db
+    color: #E8340F
 }
 
 #mobile-menu-close span {
@@ -196,7 +197,7 @@ footer {
 }
 
 .social a:hover {
-    color: #3498db
+    color: #E8340F
 }
 
 .btn-rounded-white {
@@ -209,7 +210,7 @@ footer {
 }
 
 .btn-rounded-white:hover {
-    color: #3498db;
+    color: #E8340F;
     background: #fff;
     text-decoration: none
 }
@@ -239,7 +240,7 @@ footer {
     left: 0;
     right: 0;
     margin: 0 auto;
-    background: #3498db
+    background: #E8340F
 }
 
 .background-alt {
@@ -251,7 +252,7 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(../images/lead-bg.jpg);
+    background: url(../images/headerphoto.jpg);
     background-size: cover;
     padding: 15px;
     overflow: hidden
@@ -272,18 +273,20 @@ footer {
 
 #lead-content h1 {
     color: #fff;
-    font-weight: 900;
-    font-size: 5em;
+    font-weight: 800;
+    font-size: 7em;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.20em;
     line-height: 0.9em
 }
 
 #lead-content h2 {
     color: #a0cfee;
-    font-weight: 500;
-    font-size: 2.25em;
-    margin-bottom: 15px
+    font-weight: normal;
+    letter-spacing: 0.10em;
+    font-size: 2em;
+    margin-bottom: 20px;
+    margin-top: 15px;
 }
 
 #lead-overlay {
@@ -294,7 +297,7 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(33, 125, 187, 0.8);
+    background: rgba(29, 27, 27, 0.9);
     z-index: 1
 }
 
@@ -344,13 +347,14 @@ footer {
 }
 
 #about h2 {
-    color: #374054
+    color: #000000
 }
 
 #about p {
     color: #74808a;
     margin: 0
 }
+
 
 #experience {
     padding: 50px 15px;
@@ -359,7 +363,7 @@ footer {
 }
 
 #experience h2 {
-    color: #374054
+    color: #000000
 }
 
 #experience-timeline {
@@ -377,7 +381,7 @@ footer {
     right: auto;
     height: 100%;
     width: 3px;
-    background: #3498db;
+    background: #E8340F;
     z-index: 0
 }
 
@@ -386,8 +390,8 @@ footer {
     content: '';
     width: 3px;
     height: 40px;
-    background: #3498db;
-    background: linear-gradient(to bottom, #3498db, rgba(52, 152, 219, 0));
+    background: #E8340F;
+    background: linear-gradient(to bottom, #E8340F, rgba(52, 152, 219, 0));
     top: 100%;
     left: 303px
 }
@@ -404,7 +408,7 @@ footer {
 .vtimeline-content h3 {
     font-size: 1.5em;
     font-weight: 300;
-    color: #374054;
+    color: #000000;
     display: inline-block;
     margin: 0
 }
@@ -434,7 +438,7 @@ footer {
     color: #fff;
     width: 50px;
     height: 50px;
-    background: #3498db;
+    background: #E8340F;
     border-radius: 50%;
     float: left;
     z-index: 99;
@@ -454,7 +458,7 @@ footer {
     left: 0;
     top: 10px;
     font-weight: 300;
-    color: #374054
+    color: #000000
 }
 
 #education {
@@ -464,7 +468,7 @@ footer {
 }
 
 #education h2 {
-    color: #374054;
+    color: #000000;
     margin-bottom: 50px
 }
 
@@ -480,7 +484,7 @@ footer {
     font-weight: 500;
     float: left;
     margin: 0;
-    color: #374054
+    color: #000000
 }
 
 .education-block span {
@@ -512,7 +516,7 @@ footer {
 }
 
 #projects h2 {
-    color: #374054;
+    color: #000000;
     margin-bottom: 50px
 }
 
@@ -540,7 +544,7 @@ footer {
 .project-info h3 {
     font-size: 1.5em;
     font-weight: 300;
-    color: #374054;
+    color: #000000;
     margin: 0 0 15px 0
 }
 
@@ -567,7 +571,7 @@ footer {
 }
 
 #skills h2 {
-    color: #374054;
+    color: #000000;
     margin-bottom: 50px
 }
 
@@ -582,7 +586,7 @@ footer {
     display: inline-block;
     margin: 7px;
     padding: 5px 10px;
-    color: #374054;
+    color: #000000;
     background: #e4e4ea;
     list-style: none;
     cursor: default;
@@ -591,7 +595,7 @@ footer {
 
 #contact {
     padding: 50px 15px;
-    background: #3498db;
+    background: #E8340F;
     text-align: center
 }
 
@@ -613,7 +617,7 @@ footer {
     border-radius: 4px;
     border: none;
     margin-bottom: 10px;
-    background: #1d6fa5;
+    background: #393a3b;
     color: #fff;
     transition: .5s ease all
 }
@@ -638,7 +642,7 @@ footer {
 
 #contact-form input:focus, #contact-form textarea:focus {
     outline: none;
-    background: #16527a
+    background: #E8340F
 }
 
 #contact-form textarea {
@@ -653,7 +657,7 @@ footer {
     border-radius: 4px;
     padding: 5px 10px;
     border: none;
-    color: #3498db;
+    color: #E8340F;
     font-weight: 700;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     transition: .5s ease all
@@ -670,7 +674,7 @@ footer {
 }
 
 .optional-section h2 {
-    color: #374054
+    color: #000000
 }
 
 .optional-section-block {
@@ -685,7 +689,7 @@ footer {
 .optional-section-block h3 {
     font-weight: 500;
     margin: 0 0 15px 0;
-    color: #374054
+    color: #000000
 }
 
 .optional-section-block h4 {
